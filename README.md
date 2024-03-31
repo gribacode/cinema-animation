@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Cinema Animation
 
-## Getting Started
+### About
+This is my training project. Here I train the following technologies: Taiwlind CSS and Framer Motion.
 
-First, run the development server:
+### Project stack:
+- [ReactJS](https://react.dev/)
+- [NextJS](https://nextjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [ESLint](https://eslint.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [FramerMotion](https://www.framer.com/motion/)
+- [Docker](https://www.docker.com/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Local development
+```sh
+docker-compose up --build
+``` 
+
+### Connection to container
+```sh
+docker-compose exec app sh
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Usage
+_Open page_: http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Tips for easy development
+1. Install the `ESLint` extension to check your js code style matches. Use `npm run eslint` command  to find errors or add `:fix` to fix these errors;
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. You can check types using the `npm run typecheck` command.
