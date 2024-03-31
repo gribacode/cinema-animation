@@ -17,7 +17,7 @@ export const Main = () => {
   const opacity = useTransform(scrollYProgress, [0, 0.7, 1], [1, 1, 0]);
 
   return (
-    <div className="bg-black-900 h-[300vh] text-white relative">
+    <div className="bg-black-900 text-white relative">
       <div className="h-1/2 w-full bg-gradient-to-b from-black-700 to-transparent z-10 absolute top-0 left-0"></div>
       <motion.div
         style={{ opacity }}
@@ -39,7 +39,7 @@ export const Main = () => {
           exit="hidden"
           animate="hidden"
           viewport={{ amount: 0.98 }}>
-          <h1 className="text-5xl font-bold mb-10">
+          <h1 className="md:text-5xl text-4xl font-bold mb-10">
             Смотри в Киноленте. <br /> Кино и сериалы.
           </h1>
           <Button className="mb-16" size="lg">

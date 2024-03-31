@@ -22,8 +22,17 @@ const config: Config = {
         xl: "1.3125rem", // 24px,
         "2xl": "1.5rem", // 24px
         "3xl": "1.75rem", // 28px
-        "4xl": "2.5rem", // 40px
+        "4xl": ["2.5rem", "1.1"], // 40px
         "5xl": ["4.5rem", "1.05"], // 72px
+      },
+      keyframes: {
+        "carousel-infinite-scroll": {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+      },
+      animation: {
+        "carousel-infinite-scroll": "carousel-infinite-scroll var(--duration,80s) infinite",
       },
     },
   },

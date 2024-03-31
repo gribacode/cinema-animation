@@ -14,9 +14,12 @@ export const Header = () => {
         <Container className="flex items-center min-h-[--header-row-height]">
           <div className="flex items-center justify-center gap-x-10 w-full text-md">
             {menuItems.map((menuItem, index) => (
-              <p className="cursor-pointer opacity-80 hover:opacity-100 transition-all duration-200" key={index}>
+              <Link
+                href="/"
+                className="cursor-pointer opacity-80 hover:opacity-100 transition-all duration-200"
+                key={index}>
                 {menuItem}
-              </p>
+              </Link>
             ))}
           </div>
         </Container>
