@@ -1,9 +1,9 @@
 # Cinema Animation
 
-### About
+## About
 This is my training project. Here I train the following technologies: Taiwlind CSS and Framer Motion.
 
-### Project stack:
+## Project stack:
 - [ReactJS](https://react.dev/)
 - [NextJS](https://nextjs.org/)
 - [Typescript](https://www.typescriptlang.org/)
@@ -12,20 +12,15 @@ This is my training project. Here I train the following technologies: Taiwlind C
 - [FramerMotion](https://www.framer.com/motion/)
 - [Docker](https://www.docker.com/)
 
-### Local development
+## Local development
 ```sh
 docker-compose up --build
 ``` 
 
-### Connection to container
+## Connection to container
 ```sh
 docker-compose exec app sh
 ```
 
-### Usage
+## Usage
 _Open page_: http://localhost:3000
-
-### Tips for easy development
-1. Install the `ESLint` extension to check your js code style matches. Use `npm run eslint` command  to find errors or add `:fix` to fix these errors;
-
-2. You can check types using the `npm run typecheck` command.
