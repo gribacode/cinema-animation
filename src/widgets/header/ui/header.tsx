@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 
-import { Button } from "@/shared/ui/Button";
-import { Container } from "@/shared/ui/Container";
+import { Button } from "@/shared/ui/button";
+import { Container } from "@/shared/ui/container";
 
 export const Header = () => {
   const menuItems: string[] = ["Главное", "Мое", "Контакты"];

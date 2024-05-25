@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 
-import { SmoothScroll } from "@/app/layout/SmoothScroll";
+import { SmoothScroll } from "@/app/layout/smooth-scroll";
 import { Carousel } from "@/widgets/carousel";
 import { Header } from "@/widgets/header";
 import { Info } from "@/widgets/info";
@@ -30,6 +30,7 @@ export default function Home() {
         <div>
           <Carousel />
         </div>
+        <div className="h-screen bg-black-900" />
       </main>
     </SmoothScroll>
   );

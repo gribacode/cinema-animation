@@ -1,5 +1,5 @@
-import { Container } from "@/shared/ui/Container";
-import { FadeIn } from "@/shared/ui/FadeIn";
+import { Container } from "@/shared/ui/container";
+import { FadeIn } from "@/shared/ui/fade-in";
 
 export const Info = () => {
   const infoItems: string[] = [
