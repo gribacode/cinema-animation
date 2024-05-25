@@ -3,8 +3,8 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 
-import { Button } from "@/shared/ui/Button";
-import { Container } from "@/shared/ui/Container";
+import { Button } from "@/shared/ui/button";
+import { Container } from "@/shared/ui/container";
 
 export const Main = () => {
   const videoContainerRef = useRef<HTMLDivElement | null>(null);
